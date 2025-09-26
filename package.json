@@ -4,17 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "env:start": "wp-env start",
+    "env:stop": "wp-env stop"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tevisjohnston/wordpress-affiliate-system.git"
+    "url": "git+https://github.com/tevisjohnston/wp-fresh"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/tevisjohnston/wordpress-affiliate-system/issues"
-  },
-  "homepage": "https://github.com/tevisjohnston/wordpress-affiliate-system#readme"
+  "devDependencies": {
+    "@wordpress/env": "^10.31.0"
+  }
 }
